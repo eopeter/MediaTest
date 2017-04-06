@@ -8,7 +8,7 @@ namespace test
 		{
 			InitializeComponent();
 
-			MainPage = new testPage();
+			MainPage = new NavigationPage(new testPage());
 		}
 
 		protected override void OnStart()
